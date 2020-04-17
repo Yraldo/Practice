@@ -1,4 +1,6 @@
 .box{
+    height: 1em;
+    width: 2em;
     color: aquamarine;
 }
 #middle, #end{
