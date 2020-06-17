@@ -67,7 +67,7 @@ footer {
     position: fixed;
     bottom: 0;
 }
-ul li:hover a{
+span ul li:hover a{
     color: crimson;
     font-size: 2em;
 }

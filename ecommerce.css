@@ -1,0 +1,194 @@
+:root {
+
+}
+
+html, body{
+    margin: 0;
+}
+
+body {
+    background-color: #FEF9EF;
+}
+
+
+
+/* .grid-style {
+    display: grid; 
+    grid-template-columns: repeat(4, );
+    grid-template-rows: ;
+    
+} */
+
+/* .grid-style > * { 
+    min-width: 0;
+} */
+
+/* Nav Bar */
+
+header {
+    display: flex;
+    background-color: #fef8f1;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid black 3px; */
+    width: 100%;
+}
+
+header > div {
+    font-size: 25px;
+    
+
+}
+
+header > div:nth-child(2) {
+    color: cornflowerblue;
+    transition: all 0.5s;
+    justify-self: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo:hover {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+/* .search > input {
+   height: 30px;
+   width: 100px;
+   font-size: 28px;
+} */
+
+
+.bar1, .bar2, .bar3 {
+    height: 5px;
+    width: 35px;
+    background-color: black;
+    margin: 6px 10px;
+    justify-self: flex-start;
+}
+
+.logout {
+    margin: 0 10px;
+}
+
+
+/* Main */
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 650px;
+    width: auto;
+    border: #dfdbdb ;
+}
+
+.slideshow-bkg {
+    background-color: #fef8f1;
+    padding: 50px;
+    border-bottom: #dfdbdb solid 3px;
+}
+/* There's a grid here reminder */
+.sales {
+    display: flex;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    justify-content: center;
+    align-content: center;
+    
+    grid-column: 1/-1;
+}
+figcaption {
+    text-align: center;
+}
+
+.sales-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(max-content, 50%);
+    background-color: #FEF8F5;
+    border-bottom: #dfdbdb solid 3px;
+}
+
+.clothes {
+    justify-content: center;
+    align-content: center;
+    transition: all 1s;
+}
+.clothes:hover {
+    opacity: 45%;
+}
+
+.believe {
+    font-weight: bolder;
+}
+
+.mission {
+    margin: 15px auto;
+    width: 700px;
+    border: solid #2E2836 4px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #F2EFF0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Footer */
+footer {
+    margin: 0;
+}
+
+.contact-us {
+    background-color: #2E2836;
+    color: whitesmoke;
+    margin: 0;
+    height: 100%;
+}
+
+.logo {
+    color: cornflowerblue;
+    transition: all 0.5s;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+
+.ani-border {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: tomato;
+    border: solid black 2px;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes change {
+0% {width: 100%; height: 50px; background-color: turquoise;}
+10% {width: 100%; height: 50px; background-color: teal;}
+20% {width: 100%; height: 50px; background-color: springgreen;}
+30% {width: 100%; height: 50px; background-color: steelblue;}
+40% {width: 100%; height: 50px; background-color: salmon;}
+50% {width: 100%; height: 50px; background-color: plum;}
+60% {width: 100%; height: 50px; background-color: rebeccapurple;}
+70% {width: 100%; height: 50px; background-color: palevioletred;}
+80% {width: 100%; height: 50px; background-color: palegoldenrod;}
+90% {width: 100%; height: 50px; background-color: olive;}
+100% {width: 100%; height: 50px; background-color: lightslategray;}
+}
