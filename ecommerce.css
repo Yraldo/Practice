@@ -8,6 +8,7 @@ html, body{
 
 body {
     background-color: #FEF9EF;
+    
 }
 
 
@@ -108,8 +109,7 @@ figcaption {
 
 .sales-grid {
     display: grid;
-    grid-template-columns: repeat(2, 500px);
-    column-gap: 175px;
+    grid-template-columns: repeat(2, auto);
     background-color: #FEF8F5;
     border-bottom: #dfdbdb solid 3px;
     justify-content: center;
